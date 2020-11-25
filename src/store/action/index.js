@@ -1,4 +1,5 @@
-import firebase from '../../config/firebase'
+import Firebase from '../../config/firebase'
+import firebase from 'firebase'
 
 const set_data = (data) => {
     return (dispatch) => {
